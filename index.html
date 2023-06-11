@@ -22,7 +22,9 @@
 
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -40,7 +42,7 @@
 				<ul class="navbar-nav nav ml-auto">
 					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Policies</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 				</ul>
 			</div>
@@ -63,6 +65,7 @@
 								<span class="subheading">Hello!</span>
 								<h1 class="mb-4 mt-3"><span>Abhishek Kumar</span></h1>
 								<h2 class="mb-4">Insurance Advisor and Financial Consultant</h2>
+								<h3 class="mb-4">LIC Code No: 10639/857/522</h3>
 								<p><a href="#contact-section" class="btn btn-primary py-3 px-4">Contact</a></p>
 							</div>
 						</div>
@@ -71,22 +74,26 @@
 			</div>
 			<div class="slider-item">
 				<div class="overlay"></div>
-			  <div class="container">
-				<div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-					<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/Abhi2.png);">
-						<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+						<div class="one-third js-fullheight order-md-last img"
+							style="background-image:url(images/Abhi2.png);">
+							<div class="overlay"></div>
+						</div>
+						<div class="one-forth d-flex align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">नमस्ते!</span>
+								<h1 class="mb-4 mt-3"><span>अभिषेक कुमार</span></h1>
+								<h2 class="mb-4">अभिकर्त्ता</h2>
+								<h3 class="mb-4">एल.आई.सी कोड: 10639/857/522</h3>
+								<p><a href="#contact-section" class="btn btn-primary py-3 px-4">मुझसे संपर्क करे</a></p>
+							</div>
+						</div>
 					</div>
-					<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-						<div class="text">
-							<span class="subheading">नमस्ते!</span>
-						  <h1 class="mb-4 mt-3"><span>अभिषेक कुमार</span></h1>
-						  <h2 class="mb-4">अभिकर्त्ता</h2>
-						  <p><a href="#contact-section" class="btn btn-primary py-3 px-4">मुझसे संपर्क करे</a></p>
-					  </div>
-					</div>
-				  </div>
-			  </div>
-		</div>
+				</div>
+			</div>
 	</section>
 
 	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
@@ -104,8 +111,8 @@
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section ftco-animate">
 							<h1 class="big">About</h1>
-							<h2 class="mb-4">About Me / मेरे बारे मेँ</h2>
-							<h3 class="mb-3">Abhishek Kumar</h3>
+							<h2 class="mb-5">About Me / मेरे बारे मेँ</h2>
+							<h3 class="mt-5">Abhishek Kumar</h3>
 							<p align="justify">Insurance Advisor and Financial Consultant for LIC,I am
 								here to assist you insafeguarding your future. With a deep understanding of the Indian
 								insurance landscape, I provide personalized solutions tailored to your unique needs and
@@ -119,7 +126,7 @@
 								and your loved ones through the power of LIC.</p>
 							<span></span>
 
-							<h3 class="mb-4" style="margin-top: 5rem;">अभिषेक कुमार</h3>
+							<h3 class="mt-5">अभिषेक कुमार</h3>
 							<p align="justify">भारत में एक अनुभवी एलआईसी (लाइफ इंश्योरेंस कारपोरेशन)
 								एजेंट के रूप में, मैं यहां आपकी सहायता करने के लिए हूँ ताकि आपका भविष्य सुरक्षित रहे।
 								भारतीय इंश्योरेंस लैंडस्केप की गहरी समझ के साथ, मैं आपके विशेष आवश्यकताओं और वित्तीय
@@ -143,77 +150,83 @@
 	</section>
 
 
-	<section class="ftco-section" id="services-section">
+	<section class="ftco-section" id="services-section" onload="showSlide()">
 		<div class="container">
 			<div class="row justify-content-center py-5 mt-5">
 				<div class="col-md-12 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Services</h1>
-					<h2 class="mb-4">Services</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					<h1 class="big big-2">Policies</h1>
+					<h2 class="mb-4">Policies / योजना </h2>
+					<h4>Below are some of the policies that I offer...</h4>
+					<h4>मेरे द्वारा प्रदान की जाने वाली कुछ नीतियां नीचे दी गई हैं...</h4>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
-						<span class="icon">
-							<i class="flaticon-analysis"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">Web Design</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
-						<span class="icon">
-							<i class="flaticon-flasks"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">Phtography</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
-						<span class="icon">
-							<i class="flaticon-ideas"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">Web Developer</h3>
-						</div>
-					</a>
+				<div class="slideshow-container">
+					<div class="slides">
+						<img src="images/policy1.jpg" alt="Slide 1">
+					</div>
+					<div class="slides">
+						<img src="images/policy2.jpg" alt="Slide 2">
+					</div>
+					<div class="slides">
+						<img src="images/policy3.jpg" alt="Slide 3">
+					</div>
+					<div class="slides">
+						<img src="images/policy4.jpg" alt="Slide 4">
+					</div>
+					<div class="slides">
+						<img src="images/policy5.jpg" alt="Slide 5">
+					</div>
+					<div class="slides">
+						<img src="images/policy6.jpg" alt="Slide 6">
+					</div>
+					<div class="slides">
+						<img src="images/policy7.jpg" alt="Slide 7">
+					</div>
+					<div class="slides">
+						<img src="images/policy8.jpg" alt="Slide 7">
+					</div>
+					<div class="slides">
+						<img src="images/policy9.jpg" alt="Slide 7">
+					</div>
+					<div class="slides">
+						<img src="images/policy10.jpg" alt="Slide 7">
+					</div>
+					<div class="slides">
+						<img src="images/policy11.jpg" alt="Slide 7">
+					</div>
+					<div class="slides">
+						<img src="images/policy12.jpg" alt="Slide 7">
+					</div>
+					<div class="slides">
+						<img src="images/policy13.jpg" alt="Slide 7">
+					</div>
+					<div class="slides">
+						<img src="images/policy14.jpg" alt="Slide 7">
+					</div>
+					<div class="slides">
+						<img src="images/policy15.jpg" alt="Slide 7">
+					</div>
+
+					<a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+					<a class="next" onclick="changeSlide(1)">&#10095;</a>
+					<div class="dot-container">
+						<span class="dot active-dot" onclick="currentSlide(0)"></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+						<span class="dot""></span>
+					  </div>
 				</div>
 
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
-						<span class="icon">
-							<i class="flaticon-analysis"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">App Developing</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
-						<span class="icon">
-							<i class="flaticon-flasks"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">Branding</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
-						<span class="icon">
-							<i class="flaticon-ideas"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">Product Strategy</h3>
-						</div>
-					</a>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -223,8 +236,8 @@
 			<div class="row justify-content-center mb-5 pb-3">
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Contact</h1>
-					<h2 class="mb-4">Contact Me</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					<h2 class="mb-4">Contact Me / संपर्क करे</h2>
+					<p>My contact details are: </p>
 				</div>
 			</div>
 
@@ -232,10 +245,10 @@
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-map-signs"></span>
+							<span class="fa fa-whatsapp"></span>
 						</div>
-						<h3 class="mb-4">Address</h3>
-						<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+						<h3 class="mb-4">WhatsApp</h3>
+						<p><a href="https://wa.me/917654435367">+91 7654435367</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -244,7 +257,7 @@
 							<span class="icon-phone2"></span>
 						</div>
 						<h3 class="mb-4">Contact Number</h3>
-						<p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+						<p><a href="tel://+918789125585">+91 8789125585</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -253,7 +266,7 @@
 							<span class="icon-paper-plane"></span>
 						</div>
 						<h3 class="mb-4">Email Address</h3>
-						<p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+						<p><a href="mailto:licofindia5367@gmail.com">licofindia5367@gmail.com</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -262,13 +275,13 @@
 							<span class="icon-globe"></span>
 						</div>
 						<h3 class="mb-4">Website</h3>
-						<p><a href="#">yoursite.com</a></p>
+						<p><a href="https://kichu7529.github.io/AbhishekKumar">Abhishek Kumar</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-md-6 d-flex">
-				<div class="img" style="background-image: url(images/about.jpg);"></div>
+				<div class="img" style="background-image: url(images/about.png);"></div>
 			</div>
 		</div>
 		</div>
@@ -279,52 +292,29 @@
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">About</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-							there live the blind texts.</p>
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Links</h2>
 						<ul class="list-unstyled">
 							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+							<li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Policies</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Services</h2>
-						<ul class="list-unstyled">
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<h2 class="ftco-heading-2">Find me at!!</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain
-										View, San Francisco, California, USA</span></li>
-								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
-											210</span></a></li>
-								<li><a href="#"><span class="icon icon-envelope"></span><span
-											class="text">info@yourdomain.com</span></a></li>
+								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+91
+											8789125585</span></a></li>
+								<li><a href="mailto:licofindia5367@gmmail.com"><span
+											class="icon icon-envelope"></span><span
+											class="text">licofindia5367@gmail.com</span></a></li>
+								<li><a href="https://wa.me/917654435367"><span class="icon fa fa-whatsapp"
+											style="font-size:24px"></span><span class="text">+91 7654435367</span></a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -361,6 +351,7 @@
 	<script src="js/scrollax.min.js"></script>
 
 	<script src="js/main.js"></script>
+	<script src="js/image.js"></script>
 
 </body>
 
