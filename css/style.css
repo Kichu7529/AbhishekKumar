@@ -13887,8 +13887,8 @@ textarea.form-control {
 
 .slideshow-container {
   position: relative;
-  /* max-width: 50rem;
-  max-height: 70rem; */
+  max-width: 50rem;
+  max-height: 70rem;
   margin: auto;
 }
 
