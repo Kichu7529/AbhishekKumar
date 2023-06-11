@@ -13887,8 +13887,8 @@ textarea.form-control {
 
 .slideshow-container {
   position: relative;
-  max-width: 50rem;
-  max-height: 70rem;
+  /* max-width: 50rem;
+  max-height: 70rem; */
   margin: auto;
 }
 
@@ -13897,14 +13897,14 @@ textarea.form-control {
   transition: opacity 0.5s ease;
 }
 .slides img {
-  width: 50rem;
+  width: 25rem;
   height: auto;
 }
 
 
 .prev,
 .next {
-  position: fixed;
+  position: absolute;
   top: 50%;
   font-size: 30px;
   font-weight: bold;
